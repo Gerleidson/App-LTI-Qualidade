@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".outros">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="372dp"
+        android:layout_height="720dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
+        tools:ignore="MissingConstraints,TextSizeCheck,VisualLintBounds">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="108dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Insira seus dados para agendamento"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:gravity="" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Nome completo"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/nomeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/buttonshape"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="5dp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Endereço"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/enderecoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/buttonshape"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:padding="5dp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity=""
+                android:text="Bairro"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity=""
+                android:text="Cidade"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/bairroEditText"
+                android:layout_width="177dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:padding="5dp"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/cidadeEditText"
+                android:layout_width="177dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:padding="5dp"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Documento`"
+            android:textSize="14dp"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+            <LinearLayout
+                android:layout_width="263dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/cpfEditText"
+                    android:layout_width="239dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:padding="5dp"
+                    tools:ignore="Autofill,InefficientWeight,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="É urgente?"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="OBS: Será cobrada uma taxa caso seja urgente"
+            android:textSize="14dp"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/urgenteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/buttonshape"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="5dp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Contato"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/contato"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/buttonshape"
+            android:ems="10"
+            android:inputType="phone"
+            android:padding="5dp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Selecione o serviço:"
+            tools:ignore="HardcodedText" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxEletrico"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Elétrico"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <CheckBox
+                android:id="@+id/checkBoxHidraulico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hidráulico"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPintura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pintura"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+            <CheckBox
+                android:id="@+id/checkBoxOutros"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:text="Outros"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Descreva o serviço desejado:"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/anotacao"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/buttonshape"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <!-- Text Label -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity=""
+                android:text="Forma de pagamento"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/shareButton"
+            android:layout_width="76dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/LightBlue"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.958"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.403"
+            app:srcCompat="@drawable/ic_share"
+            tools:ignore="ContentDescription,KeyboardInaccessibleWidget,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

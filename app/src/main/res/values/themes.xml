@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Tema das telas do app com fundo branco -->
+    <style name="theme.main" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:startColor">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Tema da tela Splash -->
+    <style name="theme.splash" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:startColor">@color/white</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+</resources>
+
