@@ -4,7 +4,7 @@
 
 ## Introdução
 
-O aplicativo "LTI Qualidade" oferece acesso rápido e fácil a informações de contato e links para as redes sociais da empresa. Além disso, o aplicativo fornece acesso a diferentes seções, como manutenção, instalação e outras.
+O aplicativo oferece acesso rápido e fácil a informações de contato e links para as redes sociais da empresa. Além disso, o aplicativo fornece acesso a diferentes seções, como manutenção, instalação e outras.
 
 ## Requisitos do Sistema
 
